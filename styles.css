@@ -1,0 +1,265 @@
+/*Larissa López */
+/*Quinto B*/
+/*Aplicaciones*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+}
+body{
+   /*background: rgb(255, 254, 238);*/
+   background-image: linear-gradient(to right,  #ddfff8 10%, #faf7d4 90%);
+    margin: 0;
+}
+.name {
+    width: 100%;
+    height: 300px;
+    background: #30b6ad;
+    transform: skewY(-5deg);
+}
+.name .titulo {
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    left: 25%;
+}
+.name .titulo .t1{
+    color: white;
+    font-weight: bolder;
+    font-size: 65px;
+    transform: skewY(5deg);
+    margin-top: 95px;
+    margin-bottom: 0;
+    padding-bottom: 1px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.name .titulo .t2{
+    color: white;
+    font-size: 35px;
+    transform: skewY(5deg);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+/*INFORMACION*/
+.info{
+    width: 75%;
+    height: auto;
+    background: wheat;
+    margin:5% auto;
+    padding: 20px; 
+}
+.info .seccion-dato{
+    color: #ffffff;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px white dashed;
+}
+ .tituloinfo{
+    color: rgb(255, 255, 255);
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: large;
+    font-weight: bolder;
+    margin-right: 20px;
+    padding-left: 12%;
+    display: inline;
+}
+ .informacion{
+    color: rgb(7, 0, 0);
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: large;
+    font-weight: normal;
+    padding-left: 12%;  
+  
+}
+.imag{
+    float: right;
+    width: 23%;
+    padding-right: 10% ;
+    padding-top: 8%;
+}
+/*ESTUDIOS*/
+.estudio{
+    width: 75%;
+    height: 350px;
+    background: wheat;
+    margin:5% auto;
+    padding: 20px;
+}
+.estudio .seccion-estudio{
+    color: #ffffff;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px white dashed;
+}
+.t1-estudio{
+    color:black;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px white solid;  
+}
+.t2-estudio{
+    color:black;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px white solid;  
+}
+.primaria { 
+    display: inline-block;
+    float: left;
+}
+.secun {
+ 
+    display: inline-block;
+    float: left;
+}
+.uni {
+    
+    display: inline-block;
+    float: left;
+}
+/*EXPERIENCIA LABORAL*/
+.experiencia{
+    width: 88%;
+    height: 175px;
+    background: wheat;
+    margin:35% auto;
+    padding: 20px;
+    margin-bottom: 2%;
+}
+.experiencia .seccion-exp{
+    color: #ffffff;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px;
+}
+.trab1 { 
+    display: inline-block;
+    float: left;
+    margin-right: 40px;
+    margin-left: 60px;
+}
+.trab2 {
+     
+        display: inline-block;
+        float: left;
+        margin-right: 50px;
+        margin-left: 30px;
+}
+.trab3 {
+        
+        display: inline-block;
+        float: left;
+        margin-right:40px;
+        margin-left: 20px;
+}
+.trab4 {
+        display: inline-block;
+        float: left;
+        margin-right: 30px;
+        margin-left: 30px;
+}
+.trab1 .informacion {
+    text-align: center;
+}
+.trab2 .informacion {
+    text-align: center;
+}
+.trab3 .informacion {
+    text-align: center;
+}
+.trab4 .informacion {
+    text-align: center;
+}
+/*CAPACITACIONES*/
+.capacitacion{
+    width: 65%;
+    height: auto;
+    background: wheat;
+    margin: 22% auto;
+    padding: 20px;
+    margin-bottom: 2%;
+}
+.capacitacion .seccion-cap{
+    color: #ffffff;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px white dashed;
+}
+.capacitacion .tituloinfo{
+ display:block;
+}
+.capacitacion .informacion{
+    display: inline;
+    margin-right: 100px;
+}
+.ref{
+    display: inline;
+    text-align: center;
+    margin-left: 70px;
+}
+/*REFERENCIAS PERSONALES*/
+.referencia{
+    width: 85%;
+    height: auto;
+    background: wheat;
+    margin: 22% auto;
+    padding: 20px;
+    margin-top: 10%;
+    margin-bottom: 15px;
+}
+.referencia .seccion-ref{
+    color: #ffffff;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px;
+    grid-column: 1;
+    background: wheat;
+    border-bottom: 2px white dashed;
+}
+
+.t-ref{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background: wheat;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Baloo Tamma 2', cursive;
+    border-bottom: 1px white solid;
+    border-top: 1px white solid;
+}
+.referencia .tituloinfo{
+    display: inline ;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 80px;   
+}
+.referencia .informacion{
+    display: inline;
+    justify-content: center; 
+}
+/*FOOTER*/
+.footer {
+   font-family: 'Baloo Tamma 2', cursive;
+   text-align: center;
+   width: 1000px;
+   margin: 0%;
+   padding: 1%;
+}
